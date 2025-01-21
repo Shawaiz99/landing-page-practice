@@ -1,9 +1,9 @@
 function Nav() {
   return (
-    <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav className="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          Yoll App
         </a>
         <button
           className="navbar-toggler"
@@ -22,12 +22,9 @@ function Nav() {
               Home
             </a>
             <a className="nav-link" href="#">
-              Features
-            </a>
-            <a className="nav-link" href="#">
               Contact Us
             </a>
-            <a className="nav-link disabled" aria-disabled="true">
+            <a className="nav-link" href="#">
               About Us
             </a>
           </div>
